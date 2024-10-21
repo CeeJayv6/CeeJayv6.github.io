@@ -22,7 +22,7 @@ A Flutter app for tracking daily health habits.
 An interactive survey app for pizza topping preferences.
 
 ## Education
-**Bachelor of Cyber Secueirty **  
+**Bachelor of Cyber Security **  
 Drew University, Expected 2025
 
 ## Certificates
