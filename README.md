@@ -8,7 +8,7 @@ I am a dedicated Cybersecurity student at Drew University with hands-on experien
 ## Skills
 - **Languages**: Dart, JavaScript, Python, C, C#
 - **Frameworks**: Flutter, React, SQL
-- **Tools**: Git, Android Studio, Kali Linux, Virtual Machines, Pen testing
+- **Tools**: Git, Android Studio, Kali Linux, Virtual Machines, Various pen testing tools
 
 ## Experience
 **Help Desk IT Technician**  
