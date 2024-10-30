@@ -16,7 +16,7 @@ SacredHeart University, 2022-23
 - Provided technical support to students and faculty, troubleshooting hardware and software issues
 
 ## Projects
-- **[My Health Tracker](https://github.com/janedoe/my-health-tracker)**  
+- **[Azure Server Pen Testing and set up](https://github.com/CeeJayv6/CeeJayv6.github.io/blob/main/HomeLabProjects/Azure%20Server%20Penetration%20Testing.md)**  
 A Flutter app for tracking daily health habits.  
 - **[Pizza Survey](https://github.com/janedoe/pizza-survey)**  
 An interactive survey app for pizza topping preferences.
