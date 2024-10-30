@@ -17,7 +17,7 @@ SacredHeart University, 2022-23
 
 ## Projects
 - **[Azure Server Pen Testing and set up](https://github.com/CeeJayv6/CeeJayv6.github.io/blob/main/HomeLabProjects/Azure%20Server%20Penetration%20Testing.md)**  
-A Flutter app for tracking daily health habits.  
+Set up an Azure virtual server to conduct penetration testing, simulating real-world conditions to evaluate and strengthen server security.  
 - **[Pizza Survey](https://github.com/janedoe/pizza-survey)**  
 An interactive survey app for pizza topping preferences.
 
