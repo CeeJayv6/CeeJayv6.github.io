@@ -1,6 +1,11 @@
+# Commands Cheat Sheet
+
+For easy reference, here are all the commands you may need to run:
+
+```bash
 # Clone the repo
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo/secure-code-review-flask
+git clone https://github.com/CeeJayv6/CeeJayv6.github.io.git
+cd CeeJayv6.github.io/HomeLabProjects/secure-code-review-flask
 
 # Navigate into the app folder
 cd insecure-app  # or secure-app
