@@ -59,14 +59,9 @@ Here’s a breakdown of key vulnerabilities and what I took away from each modul
 
 ---
 
-## 📁 Repo Contents
 
 > 🚨 _No exploit scripts or payloads are included to follow responsible disclosure practices._
 
-- `NOTES.md` – Vulnerability explanations, walkthroughs, and screenshots
-- `BestPractices.md` – Secure coding patterns and remediation strategies
-- Screenshots from completed challenges (optional)
-- Final reflections and security checklists
 
 ---
 
@@ -77,7 +72,7 @@ Here’s a breakdown of key vulnerabilities and what I took away from each modul
 
 ---
 
-## 🧠 Bonus: What This Taught Me About Security
+## What This Taught Me About Security
 
 Through WebGoat, I didn’t just learn how to break things — I learned **why things break**, and how to prevent it.
 
