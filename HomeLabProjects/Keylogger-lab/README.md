@@ -40,6 +40,3 @@ This script acts as a listener/server. It:
 - Terminal or command line
 
 ---
-
-## 📁 Project Structure
-
