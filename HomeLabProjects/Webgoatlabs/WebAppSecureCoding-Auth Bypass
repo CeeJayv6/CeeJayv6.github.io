@@ -1,0 +1,71 @@
+# 🔓 WebGoat Security Question Bypass – Burp Suite Walkthrough
+
+This write-up documents how I was able to bypass the password authentication flow on the WebGoat vulnerable web app using **Burp Suite**, by manipulating the `POST` request for the **Security Questions** method.
+
+⚠️ **For educational and ethical hacking purposes only.**
+
+---
+
+## 🧰 Tools Used
+- Burp Suite (Community Edition)
+- WebGoat (vulnerable app)
+- Firefox with Burp Proxy
+- Localhost setup
+
+---
+
+## 🪜 Step-by-Step Walkthrough
+
+### 🧩 1. Intercept the Request in Burp
+First, I navigated to the **Security Questions login page** on WebGoat and entered **random credentials**.
+
+In Burp Suite, with Intercept enabled, I captured the request being sent to the server.
+
+📸 *Screenshot:* `screenshots/intercept-credentials.png`
+
+---
+
+### 🛠️ 2. Send to Repeater for Editing
+Next, I right-clicked the request in Burp and selected **"Send to Repeater"** so I could manually modify the values before resending it.
+
+📸 *Screenshot:* `screenshots/repeater-request-edit.png`
+
+---
+
+### ✏️ 3. Modify the Parameters to Exploit the Bug
+
+In the **Repeater tab**, I noticed the request included parameters
+
+This simple change bypassed the verification mechanism.
+
+---
+
+### ✅ 4. Success – Access Gained Without Valid Answers
+
+After submitting the modified request, I was able to proceed **without knowing the actual security question answers**. From there, the application allowed me to **reset the password**, proving the bypass was successful.
+
+📸 *Screenshot:* `screenshots/password-reset-success.png`
+
+---
+
+## 🧠 What I Learned
+
+- How insecure parameter naming can break application logic
+- The power of Burp Repeater to test for input manipulation
+- Real-world examples of **Insecure Direct Object References (IDOR)** and logic flaws
+
+---
+
+## ⚠️ Ethical Use Reminder
+
+This walkthrough was performed in a safe lab environment using intentionally vulnerable software (WebGoat). Never attempt similar actions on live or unauthorized systems.
+
+---
+
+## 📁 Screenshots
+
+All screenshots can be found in the `/screenshots/` folder:
+- `intercept-credentials.png`
+- `repeater-request-edit.png`
+- `password-reset-success.png`
+
